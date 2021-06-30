@@ -1,0 +1,19 @@
+//----------------------
+// 0-arraow operators
+//----------------------
+
+1-spread-operator
+2-de-structorong
+3-iterable-objects
+4-generator-functions
+5-promise-api
+6-async-await
+7-reactive-programming in ajva script (rxjs)
+
+//-----------------
+=> foreach
+=> filters
+=> map
+=> sort
+=> reducer
+//-----------------
