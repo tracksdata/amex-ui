@@ -8,7 +8,7 @@
 4-generator-functions
 5-promise-api
 6-async-await
-7-reactive-programming in ajva script (rxjs)
+7-reactive-programming in ajva script (rxjs) 
 
 //-----------------
 => foreach
