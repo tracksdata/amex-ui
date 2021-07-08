@@ -16,8 +16,7 @@ http.createServer((req, resp) => {
 
 
     console.log("=========================");
-
-    console.log(req);
+    
     console.log("=========================");
 
 
@@ -27,6 +26,8 @@ http.createServer((req, resp) => {
 
     }
 
+  
+
     if (req.url === '/' && req.method == 'POST') {
         // resp.writeHead(200, { method: 'POST' });
         resp.write('<h1>Hello, Node.js!.... POST</h1>');
@@ -34,6 +35,8 @@ http.createServer((req, resp) => {
 
     }
 
+
+    
     if (req.url === '/emp') {
         resp.write(JSON.stringify(emp));
     }
