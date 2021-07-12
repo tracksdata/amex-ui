@@ -1,0 +1,15 @@
+React JS Data Communications
+-----------------------------
+
+1. Using Props
+2. Using State
+
+
+Props
+-------
+communication from component to component. Paremt component is passing data to a child component
+
+
+
+
+
