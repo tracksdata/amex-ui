@@ -1,3 +1,19 @@
+React Topics
+---------------------------------------
+1. Virtual DOM
+2. Components
+3. Component Communications
+4. Props and state
+5. hooks
+6. Forms 
+7. HTTP API 
+8. Routers
+9. redux 
+10. end-to-end application
+
+---------------------------------------
+
+
 React JS Data Communications
 -----------------------------
 
@@ -8,6 +24,30 @@ React JS Data Communications
 Props
 -------
 communication from component to component. Paremt component is passing data to a child component
+
+
+React JS hooks
+-------------------
+======================
+1. useState
+2. useEffect
+3. useContetxt
+======================
+
+4. useReducer
+5. useMemo
+6. useCallback
+7. useRef
+
+
+
+React JS Forms
+-------------------
+1. Controlled forms
+2. Un-Controlled forms
+
+
+
 
 
 
