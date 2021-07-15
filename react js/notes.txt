@@ -47,6 +47,13 @@ React JS Forms
 2. Un-Controlled forms
 
 
+Validations
+
+nom install yup
+npm install @hookform/resolvers
+
+
+
 
 
 
