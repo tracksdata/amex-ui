@@ -46,7 +46,6 @@ app.get('/api/products/:pid', (req, res) => {
 
 })
 
-
 // save new product
 app.post('/api/products', (req, res) => {
     let product = req.body;

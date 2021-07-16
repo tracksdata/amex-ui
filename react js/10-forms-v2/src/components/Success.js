@@ -10,16 +10,16 @@ const Success = ({ flight }) => {
     }
 
     function renderFlights() {
-        return results.map(flight => {
+        return results.map((flight,idx) => {
             return (
-                <tr>
+                <tr key={idx}>
                     <td><img src={flight.flightInfo.airlineInfo.airlineLogo} height='40px' width='40'></img></td>
                     <td>{flight.flightInfo.airlineInfo.airlineName}</td>
                     <td>{flight.flightNumber}</td>
                     <td>{flight.origin}</td>
                     <td>{flight.destination}</td>
                     <td>{flight.fare.ticketFare}</td>
-                    <td><button class="btn btn-primary">Book</button></td>
+                    <td><button className="btn btn-primary">Book</button></td>
                 </tr>
             )
         })
@@ -34,7 +34,6 @@ const Success = ({ flight }) => {
 
             <table className="table table-hover">
                 <tbody>
-
                     {renderFlights()}
                 </tbody>
             </table>
